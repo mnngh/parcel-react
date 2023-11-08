@@ -1,0 +1,8 @@
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+const elH1 = document.createElement('h1');
+elH1.textContent = 'This is JavaScript';
+elH1.id = 'title';
+elH1.className = 'red';
+app.appendChild(elH1);
+exports.default = h1 = elH1;

@@ -1,0 +1,9 @@
+const app = document.getElementById('app');
+const elH1 = document.createElement('h1');
+elH1.textContent = 'This is JavaScript';
+elH1.id = 'title';
+elH1.className = 'red';
+app.appendChild(elH1);
+const elP = document.createElement('p');
+elP.textContent = 'This is a paragraph';
+app.appendChild(elP);

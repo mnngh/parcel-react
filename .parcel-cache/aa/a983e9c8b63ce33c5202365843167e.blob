@@ -1,0 +1,8 @@
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+var _headers = require("./headers");
+var _headersDefault = parcelHelpers.interopDefault(_headers);
+const app = document.getElementById('app');
+const elP = document.createElement('p');
+elP.textContent = _headers.myText;
+app.appendChild(_headersDefault.default('Main Header'));
+app.appendChild(elP);

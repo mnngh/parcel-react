@@ -1,0 +1,14 @@
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "myText", ()=>myText
+);
+function Header() {
+    const elH1 = document.createElement('h1');
+    elH1.textContent = 'This is JavaScript';
+    elH1.id = 'title';
+    elH1.className = 'red';
+    app.appendChild(elH1);
+    return elH1;
+}
+const myText = 'My super text';
+exports.default = Header;
